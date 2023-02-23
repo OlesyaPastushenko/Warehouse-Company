@@ -1,8 +1,16 @@
 import Link from 'next/link';
+import { useEffect, useState } from 'react';
 export default function Navigation(){
+  const [opacity, setOpacity] = useState(1) 
+  const [margin, setMargin] = useState(400)
+  useEffect(()=>{
+     setOpacity(0)
+     setMargin(0)
+  },[])
     return (
       <div>
-      <div className='cover'></div>
+      <div className='cover'>
+        <div className='filter' style={{opacity: opacity}}></div>
       <nav className='nav'>
       <div className='logoNavWrap'>
       <div className='logo'>SWIFTSTORE</div>
@@ -35,7 +43,15 @@ export default function Navigation(){
       </div> 
         <button className='btn'><span className='spnBtn1'>Contact us</span><span className='spnBtn2'>Contact us</span></button>
       </nav>
-      <div>sd;lfk</div>
+      <div className='sloganWrap'>
+        <div className='slogan' style={{marginTop: margin}}>
+        <h1 className='h1'>Warehouse solutions in Spain</h1>
+        <p className='slogantext'>A long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum'.
+        </p>
+        <button className='btn'><span className='spnBtn1'>What's App US</span><span className='spnBtn2'>What's App US</span></button>
+        </div>
+      </div>
+      </div>
       </div>
     )
 }
