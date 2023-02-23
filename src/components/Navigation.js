@@ -10,7 +10,7 @@ export default function Navigation(){
         <div className='linkwrapLog'>
         <Link  className='menuItem log' href="/logistics">Warehouse Logistics</Link>
         <div className='submenuLog'>
-        <Link  className='subMenuItem' href="/logistics">Responsible storage</Link>
+        <Link  className='subMenuItem' href="/logistics">Long-term storage</Link>
         <Link  className='subMenuItem' href="/logistics">Traceable marking</Link>
         <Link  className='subMenuItem' href="/logistics">Sorting and repackaging</Link>
         <Link  className='subMenuItem' href="/logistics">Order mailing</Link>
@@ -24,16 +24,18 @@ export default function Navigation(){
         </div>
         </div>
         <div className='linkwrapCross'>
-        <Link  className='menuItem' href="/logistics">Cross docking</Link>
+        <Link  className='menuItem cross' href="/logistics">Cross docking</Link>
         <div className='submenuCross'>
-        <Link  className='subMenuItem' href="/logistics">E-shops</Link>
-        <Link  className='subMenuItem' href="/logistics">Marketplaces</Link>
+        <Link  className='subMenuItem' href="/logistics">Pallet</Link>
+        <Link  className='subMenuItem' href="/logistics">Box</Link>
+        <Link  className='subMenuItem' href="/logistics">Piece</Link>
         </div>
         </div>
       </ul>
       </div> 
         <button className='btn'><span className='spnBtn1'>Contact us</span><span className='spnBtn2'>Contact us</span></button>
       </nav>
+      <div>sd;lfk</div>
       </div>
     )
 }

@@ -13,7 +13,7 @@
 nav {
    position: absolute;
    padding: 0px 100px 0px 100px;
-   top:0;
+   top:30px;
    width: 100%;
    height: 60px;
    display: flex;
@@ -80,14 +80,16 @@ nav {
    width: 520px;
    flex-direction: column;
    position: absolute;
-   top: 77px;
+   top: 60px;
    background-color: rgba(255, 255, 255, 0.8);
    padding-bottom: 15px;
    border-radius: 0px 20px 20px 20px;
    display: none;
    padding: 0px 20px 20px 20px;
 }
-
+.linkwrapLog {
+display: flex;
+flex-direction: column;}
 .linkwrapLog:hover .submenuLog {
    display: flex;
 }
@@ -109,12 +111,16 @@ border-radius: 20px 20px 0px 0px;
    width: 300px;
    flex-direction: column;
    position: absolute;
-   top: 77px;
+   top: 60px;
    background-color: rgba(255, 255, 255, 0.8);
    padding-bottom: 15px;
    border-radius: 0px 20px 20px 20px;
    padding: 0px 20px 20px 20px; 
    display: none;
+}
+.linkwrapFul {
+   display: flex;
+   flex-direction: column;
 }
 .linkwrapFul:hover .submenuFul {
    display: flex;
@@ -123,3 +129,29 @@ border-radius: 20px 20px 0px 0px;
    background-color: rgba(255, 255, 255, 0.8);
    border-radius: 20px 20px 0px 0px;
    }
+.linkwrapCross:hover .submenuCross {
+   display: flex; 
+}
+.linkwrapCross:hover .cross {
+   background-color: rgba(255, 255, 255, 0.8);
+   border-radius: 20px 20px 0px 0px;
+   }
+
+.linkwrapCross{
+   display: flex;
+   flex-direction: column;
+   align-items: flex-end;
+}
+.submenuCross {
+   display: flex;
+   align-items: flex-end;
+   width: 520px;
+   flex-direction: column;
+   position: absolute;
+   top: 60px;
+   background-color: rgba(255, 255, 255, 0.8);
+   padding-bottom: 15px;
+   border-radius: 20px 0px 20px 20px;
+   padding: 0px 20px 20px 20px; 
+   display: none;
+}
