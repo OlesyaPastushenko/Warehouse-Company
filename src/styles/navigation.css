@@ -85,6 +85,7 @@ nav {
 }
 .btn {
    height: 51px;
+   width: fit-content;
    display: flex;
    flex-direction: column;
    background-color: Transparent;

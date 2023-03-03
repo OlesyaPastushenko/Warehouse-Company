@@ -2,6 +2,7 @@ import Calculator from "./Calculator"
 export default function Calc () {
     return(
         <div className="section">
+            <div className='calcWrapAll'>
             <div className="frostedGlass">
                 <div className="h3">Our platforms is used throughout the public, private, and non-profit sectors</div>
                 {/* <div className="calcDisc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.
@@ -14,6 +15,11 @@ export default function Calc () {
                     <span>Total amount:</span>
                     <span>0.00 &euro;</span>
                 </div>
+            </div>
+            <div className="calcContactWrap"> 
+            <div className="CalcContact">If your have not standard oreder, please contact our menager for calculation.</div>
+            <button className='btn'><span className='spnBtn1'>Contact Us</span><span className='spnBtn2'>Contact Us</span></button>
+            </div>
             </div>
         </div>
     )

@@ -43,6 +43,7 @@ body {
     justify-content: space-between;
     align-items: center;
     margin: 30px 0px;
+    flex-shrink: 0;
 }
 .sel {
     width: 100px;
@@ -50,6 +51,7 @@ body {
     border-radius: 5px;
     outline: none;
     border: none;
+    margin-right: 20px;
 }
 .inputCalc {
     width: 50px;
@@ -85,4 +87,21 @@ body {
     font-size: 18px;
     display: flex;
     justify-content: space-between;
+}
+.calcWrapAll {
+    display: flex;
+}
+.CalcContact {
+    font-size: 20px;
+    border-bottom: 2px solid yellow;
+    height: fit-content;
+    padding-bottom: 40px;
+    margin-bottom: 40px;
+}
+.calcContactWrap {
+    display: flex;
+    flex-direction: column;
+    max-width: 300px;
+    margin-left: 100px;
+    padding: 40px 0px;
 }
