@@ -1,0 +1,58 @@
+.section {
+    width: 100%;
+    padding: 100px 100px;
+    /* background-color: aliceblue; */
+}
+.secWrap {
+    display: flex;
+}
+.raw {
+    display: flex;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+.desc{
+    width: 500px;
+    margin-right: 100px;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 1.5;
+}
+.h2 {
+    font-size: 50px;
+    font-weight: 500;
+}
+.item {
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+}
+.num {
+    font-size: 30px;
+    font-weight: 400;
+    padding: 10px 15px;
+    border-bottom: 4px solid yellow;
+    width: fit-content;
+    margin-bottom: 20px;
+}
+.priceInfo {
+    width: 100%;
+    overflow: hidden;
+}
+.service {
+    font-size: 40px;
+ }
+.servDesc {
+    font-size: 18px;
+    font-weight: 200;
+    line-height: 1.5;
+}
+.price {
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: 500;
+}
+.white {
+    background-color: white;
+}

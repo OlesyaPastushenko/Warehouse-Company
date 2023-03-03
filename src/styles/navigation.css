@@ -51,6 +51,38 @@ nav {
    margin-left: 50px;
    display: flex;
 }
+.btnWhite {
+   height: 51px;
+   display: flex;
+   flex-direction: column;
+   background-color: Transparent;
+   background-repeat:no-repeat;
+   border: 3px solid white;
+   cursor:pointer;
+   border-radius: 30px;
+   color: white;
+   font-family: "Inter";
+   font-size: 14px;
+   font-weight: 500;
+   transition: 0.3s;
+   overflow: hidden;
+   padding: 15px 25px;
+   flex-shrink: 0;
+}
+.btnWhite:hover {
+   background-color: white;
+}
+.btnWhite:hover .spnBtn1White{
+  margin-top: -32px;
+}
+.spnBtn1White {
+   transition: 0.3s;
+   margin-bottom: 15px;
+}
+.spnBtn2White {
+   transition: 0.3s;
+   color: black
+}
 .btn {
    height: 51px;
    display: flex;
@@ -98,6 +130,7 @@ nav {
 .linkwrapLog {
 display: flex;
 flex-direction: column;}
+
 .linkwrapLog:hover .submenuLog {
    display: flex;
 }
@@ -167,7 +200,7 @@ border-radius: 20px 20px 0px 0px;
    position: absolute;
    width: 100%;
    height: 400px;
-   top: 260px;
+   top: 300px;
    padding: 0px 100px 0px 100px;
    overflow: hidden;
    transition: 0.5s;
@@ -182,8 +215,10 @@ border-radius: 20px 20px 0px 0px;
    font-size: 30px;
    font-weight: 300;
    padding: 20px 100px 20px 0px;
+   line-height: 1.5;
 }
 .slogan {
    margin-top: 400px;
    transition: 3s ease;
 }
+

@@ -1,6 +1,8 @@
 import Head from 'next/head'
 import { Inter } from '@next/font/google'
-import Navigation from '@/components/Navigation'
+import Navigation from '@/components/secCover'
+import Prices from '@/components/secPrices'
+import Calc from '@/components/secCalc'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -15,6 +17,8 @@ export default function Home() {
       </Head>
       <main>
       <Navigation/>
+      <Prices/>
+      <Calc/>
       </main>
     </>
   )

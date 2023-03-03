@@ -22,6 +22,7 @@ export default function Navigation(){
         <Link  className='subMenuItem' href="/logistics">Traceable marking</Link>
         <Link  className='subMenuItem' href="/logistics">Sorting and repackaging</Link>
         <Link  className='subMenuItem' href="/logistics">Order mailing</Link>
+        <Link  className='subMenuItem' href="/logistics">Returns of orders</Link>
         </div>
         </div>
         <div className='linkwrapFul'>
@@ -46,7 +47,7 @@ export default function Navigation(){
       <div className='sloganWrap'>
         <div className='slogan' style={{marginTop: margin}}>
         <h1 className='h1'>Warehouse solutions in Spain</h1>
-        <p className='slogantext'>A long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum'.
+        <p className='slogantext'>A long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using.
         </p>
         <button className='btn'><span className='spnBtn1'>What's App US</span><span className='spnBtn2'>What's App US</span></button>
         </div>

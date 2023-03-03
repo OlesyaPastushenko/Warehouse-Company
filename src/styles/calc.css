@@ -1,0 +1,88 @@
+.blue {
+    background-color: aliceblue;
+}
+body {
+    background-image: url('./Homre.jpg');
+    background-attachment: fixed;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.frostedGlass {
+    box-shadow: inset 0 0 2000px rgba(0, 12, 31, 0.99);
+    /* backdrop-filter: blur(5px); */
+    background-color: rgba(0, 13, 29, 0.5);  
+    backdrop-filter: blur(5px);
+    border-radius: 10px;
+    width: 700px;
+    padding: 50px;
+}
+.h3 {
+    font-size: 35px;
+    color: white;
+}
+.calcDisc {
+    padding: 30px 0px 10px 0px;
+    color: white;
+    font-size: 18px;
+    line-height: 1.5;
+    font-weight:100;
+}
+.titleCalc {
+    color: white;
+    font-size: 18px;
+    font-weight:100;
+    width: 400px;
+    display: flex;
+    height: auto;
+}
+.calcRow {
+    display: flex;
+    width: 100%;
+    height: 50px;
+    justify-content: space-between;
+    align-items: center;
+    margin: 30px 0px;
+}
+.sel {
+    width: 100px;
+    padding: 10px 10px;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+}
+.inputCalc {
+    width: 50px;
+    padding: 10px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+}
+.calcWrap {
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+}
+.small {
+    font-size: 13px;
+}
+.margin-bottom {
+    margin-bottom: 40px;
+}
+.margin-top {
+    margin-top: 20px;
+}
+
+.whiteBtnWrap {
+    display: flex;
+    width: 100%;
+    padding-bottom: 40px;
+}
+.totalWrap {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    color: white;
+    font-size: 18px;
+    display: flex;
+    justify-content: space-between;
+}
