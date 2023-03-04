@@ -1,6 +1,6 @@
 import Link from 'next/link';
 import { useEffect, useState } from 'react';
-export default function Navigation(){
+export default function Cover(){
   const [opacity, setOpacity] = useState(1) 
   const [margin, setMargin] = useState(400)
   useEffect(()=>{

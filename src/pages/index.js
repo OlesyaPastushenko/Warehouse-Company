@@ -1,6 +1,6 @@
 import Head from 'next/head'
 import { Inter } from '@next/font/google'
-import Navigation from '@/components/secCover'
+import Cover from '@/components/secCover'
 import Prices from '@/components/secPrices'
 import Calc from '@/components/secCalc'
 import Types from '@/components/secTypes'
@@ -17,7 +17,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main>
-      <Navigation/>
+      <Cover/>
       <Prices/>
       <Calc/>
       <Types/>
