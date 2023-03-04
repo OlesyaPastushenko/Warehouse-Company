@@ -4,6 +4,7 @@ import Cover from '@/components/secCover'
 import Prices from '@/components/secPrices'
 import Calc from '@/components/secCalc'
 import Types from '@/components/secTypes'
+import About from '@/components/secAbout'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -21,6 +22,7 @@ export default function Home() {
       <Prices/>
       <Calc/>
       <Types/>
+      <About/>
       </main>
     </>
   )
