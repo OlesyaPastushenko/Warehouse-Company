@@ -2,7 +2,7 @@ import Carousel from './Carousel'
 
 export default function Types () {
     return (
-        <div className="section white padding-bootom-500">
+        <div className="section lightGrey padding-bootom-500">
             <div className="h2">
             Types of goods we menage
             </div>

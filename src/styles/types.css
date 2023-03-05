@@ -1,8 +1,11 @@
 .padding-bootom-500 {
-    padding-bottom: 450px;
+    padding-bottom: 590px;
 }
 .txt {
     margin-top: 20px;
     font-size: 20px;
     font-weight: 100;
+}
+.lightGrey {
+    background-color: rgb(228, 235, 241);
 }
