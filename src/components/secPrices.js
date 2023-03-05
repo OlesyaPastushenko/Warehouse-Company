@@ -19,7 +19,7 @@ export default function Prices() {
         </div>
         <div className="priceInfo">
           <div className="h2">
-            Foundational Software of Tomorrow. Delivered Today.
+            Foundational Warehouse of Tomorrow. Delivered Today.
           </div>
           <div className="priseList">
             <div className="raw" data-aos="fade-up">

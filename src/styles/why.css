@@ -1,0 +1,64 @@
+.whyWrap {
+    width: 50vw;
+    padding-right: 40px;
+    display: flex;
+    flex-direction: column;
+}
+.whyDesc {
+    margin-top: 40px;
+    font-weight: 100;
+    font-size: 20px;
+}
+.nameAndCross {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0px;
+    font-size: 35px;
+    font-weight: 400;
+}
+.cross1 {
+  width: 32px;
+  height: 32px;
+  display: flex;
+}
+.cross1:before, .cross1:after {
+    position: absolute;
+    margin-left: 15px;
+    margin-top: 0px;
+    content: ' ';
+    height: 25px;
+    width: 1px;
+    background-color: #333;
+    display: inline;
+  }
+    .cross1:before {
+        transform: rotate(90deg);
+    }
+  /* .cross:after {
+    transform: rotate(90deg);
+  } */
+  .whyInfo {
+    width: 100%;
+    padding: 20px 0px;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    font-size: 18px;
+    font-weight: 500;
+    color: #6e6e6e;
+    transition: 0.5s;
+  }
+  .photoAndWhy {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+  .aurimas {
+    background-image: url('./aurimas.jpg');
+    background-size: cover;
+    height: 500px;
+    width: 400px;
+    border-radius: 15px;
+    margin-top: 100px;
+  }

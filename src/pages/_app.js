@@ -5,6 +5,7 @@ import'@/styles/calc.css'
 import'@/styles/carousel.css'
 import '@/styles/types.css'
 import '@/styles/about.css'
+import '@/styles/why.css'
 
 
 export default function App({ Component, pageProps }) {
