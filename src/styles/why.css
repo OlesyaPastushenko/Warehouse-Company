@@ -39,15 +39,26 @@
   /* .cross:after {
     transform: rotate(90deg);
   } */
+  .whyInfoClose {
+    width: 100%;
+    border-top: 1px solid black;
+    font-size: 18px;
+    font-weight: 500;
+    color: #6e6e6e;
+    transition: 0.2s;
+    overflow: hidden;
+    height: 0;
+  }
   .whyInfo {
     width: 100%;
-    padding: 20px 0px;
     border-top: 1px solid black;
     border-bottom: 1px solid black;
     font-size: 18px;
     font-weight: 500;
     color: #6e6e6e;
-    transition: 0.5s;
+    transition: 0.4s;
+    overflow: hidden;
+    padding: 20px 0px;
   }
   .photoAndWhy {
     width: 100%;
@@ -61,4 +72,5 @@
     width: 400px;
     border-radius: 15px;
     margin-top: 100px;
+    margin-bottom: 100px;
   }
