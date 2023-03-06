@@ -2,7 +2,7 @@
     background-color: aliceblue;
 }
 body {
-    background-image: url('./Homre.jpg');
+    background-image: url('./assets/Homre.jpg');
     background-attachment: fixed;
     background-position: top;
     background-repeat: no-repeat;
@@ -49,14 +49,18 @@ body {
 }
 .sel {
     width: 100px;
+    height: 40px;
     padding: 10px 10px;
     border-radius: 5px;
     outline: none;
     border: none;
     margin-right: 20px;
+    background-color: white;
 }
 .inputCalc {
     width: 50px;
+    height: 40px;
+    background-color: white;
     padding: 10px;
     outline: none;
     border: none;

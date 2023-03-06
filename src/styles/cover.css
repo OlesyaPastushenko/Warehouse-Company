@@ -1,0 +1,133 @@
+
+.filter {
+   position: absolute;
+   top:0;
+   left: 0;
+   bottom: 0;
+   right: 0;
+   background-color: rgb(0, 0, 0);
+   transition: 3s ease;
+}
+
+nav {
+   position: absolute;
+   padding: 0px 100px 0px 100px;
+   top:30px;
+   width: 100%;
+   height: 60px;
+   display: flex;
+   justify-content: space-between;
+   align-items: flex-end;
+   z-index: 10;
+}
+.cover {
+   position: relative;
+   display: flex;
+   width: 100%;
+   height: 100vh;
+   background-image: url('./assets/cover1.jpg');
+   opacity: 1;
+   background-size: cover;
+   overflow: hidden;
+}
+.logo {
+   font-family: "Roboto";
+   font-size: 30px;
+   font-weight: 600;
+}
+.logoNavWrap {
+   display: flex;
+   align-items: baseline;
+}
+
+.btnWhite {
+   height: 51px;
+   display: flex;
+   flex-direction: column;
+   background-color: Transparent;
+   background-repeat:no-repeat;
+   border: 3px solid white;
+   cursor:pointer;
+   border-radius: 30px;
+   color: white;
+   font-family: "Inter";
+   font-size: 14px;
+   font-weight: 500;
+   transition: 0.3s;
+   overflow: hidden;
+   padding: 15px 25px;
+   flex-shrink: 0;
+}
+.btnWhite:hover {
+   background-color: white;
+}
+.btnWhite:hover .spnBtn1White{
+  margin-top: -32px;
+}
+.spnBtn1White {
+   transition: 0.3s;
+   margin-bottom: 15px;
+}
+.spnBtn2White {
+   transition: 0.3s;
+   color: black
+}
+.btn {
+   height: 51px;
+   width: fit-content;
+   display: flex;
+   flex-direction: column;
+   background-color: Transparent;
+   background-repeat:no-repeat;
+   border: 3px solid black;
+   cursor:pointer;
+   border-radius: 30px;
+   color: black;
+   font-family: "Inter";
+   font-size: 14px;
+   font-weight: 500;
+   transition: 0.3s;
+   overflow: hidden;
+   padding: 15px 25px;
+   flex-shrink: 0;
+}
+.btn:hover {
+   background-color: black;
+}
+.btn:hover .spnBtn1{
+  margin-top: -32px;
+}
+.spnBtn1 {
+   transition: 0.3s;
+   margin-bottom: 15px;
+}
+.spnBtn2 {
+   transition: 0.3s;
+   color: white
+}
+.sloganWrap {
+   position: absolute;
+   width: 100%;
+   height: 400px;
+   top: 40vh;
+   padding: 0px 100px 0px 100px;
+   overflow: hidden;
+   transition: 0.5s;
+}
+.h1 {
+   font-family: 'Inter';
+   font-size: 60px;
+   font-weight: 500;
+}
+.slogantext {
+   font-family: 'Inter';
+   font-size: 30px;
+   font-weight: 300;
+   padding: 20px 100px 20px 0px;
+   line-height: 1.5;
+}
+.slogan {
+   margin-top: 400px;
+   transition: 3s ease;
+}
+
